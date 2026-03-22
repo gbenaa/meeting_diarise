@@ -1,0 +1,39 @@
+# ========== Python ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========== Sensitive meeting data ==========
+input/
+output/
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+*.ogg
+
+# ========== Common transcript / artefact names ==========
+meeting.txt
+meeting.json
+transcript*.txt
+transcript*.json
+
+# ========== Caches ==========
+hf_cache/
+torch_cache/
+
+# ========== Logs / scratch ==========
+*.log
+delme/
+
+# ========== Secrets ==========
+.env
+.env.*
+*.token
+
+# ========== OS / editor ==========
+.DS_Store
+.vscode/
+.idea/
