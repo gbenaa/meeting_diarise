@@ -37,7 +37,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("input_audio")
     parser.add_argument("output_prefix")
-    parser.add_argument("--model", default="large-v2")
+    parser.add_argument("--model", default="large-v3")
     parser.add_argument("--compute-type", default="float16")
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--language", default=None)

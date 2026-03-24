@@ -19,4 +19,4 @@ docker run --rm -i \
   -v "$(pwd)/diarise.py:/app/diarise.py:ro" \
   --entrypoint python3 \
   meeting-diariser:stable \
-  /app/diarise.py /input/meeting.mp3 /output/meeting 2>&1 | tee "$log_file"
+  /app/diarise.py /input/meeting.mp3 /output/meeting --language en --num-speakers 2 2>&1 | tee "$log_file"
